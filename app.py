@@ -165,9 +165,9 @@ def main():
 
     if selected_project == "Stock Prices":
         st.write("""
-        # Stock Prediction App
+        # Stock Viewer App
         
-        This app predicts the stock prices of a chosen company.
+        This app shows the stock prices of a chosen company.
         """)
         
         selected_company = st.selectbox("Choose a company", ["AAPL", "GOOGL", "MSFT", "AMZN", "FB"])
